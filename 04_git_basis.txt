@@ -15,7 +15,7 @@
            리포지토리 생성 및 master branch 생성
 
         git status 
-            현재 리포지토리의 상태 확인. (branch, 추적중인 파일)
+            현재 리포지토리의 상태 확인. (branch, 추적중인 파일 등등)
         
         git add {파일명}
             git으로 추적하고자 하는 파일 / 폴더 등록
@@ -27,3 +27,12 @@
             
         git log
             master branch 에 있는 커밋들의 개요를 확인 할 수 있음
+
+        git branch
+            현재 리포지토리에 정의된 branch를 확인
+
+            -m [이름] : 마스터 branch 이름 변경 
+        
+        git checkout -b [이름]
+            master branch를 기준으로 새로운 branch 생성
+            
