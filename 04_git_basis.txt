@@ -32,10 +32,24 @@
             현재 리포지토리에 정의된 branch를 확인
 
             -m [이름] : 마스터 branch 이름 변경 
-        
+			-D [이름] : 브런치를 삭제
+			
         git checkout -b [이름]
             master branch를 기준으로 새로운 branch 생성
             -b : 생성 후 이동
 
         git merge [브런치명]
+		
+		git rm [파일명] 
+			- 스테이징 상태에 있는 파일을 지우고 실제로 제거함
+		
+		git reset --hard HEAD~1
+			HEAD (최상위 commit 상태)를 (~1) 1단계 초기화
+			--hard 옵션 
+			
+		git checkout -- .
+			현재 branch의 마지막 commit 상태로 초기화
+			
+		git reset [파일명]
+			스테이징 된 파일을 언스테이징 상태로 복원
 		
