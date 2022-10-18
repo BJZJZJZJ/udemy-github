@@ -35,4 +35,7 @@
         
         git checkout -b [이름]
             master branch를 기준으로 새로운 branch 생성
-            
+            -b : 생성 후 이동
+
+        git merge [브런치명]
+		
