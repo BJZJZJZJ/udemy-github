@@ -1,0 +1,22 @@
+1. git vs github
+    - git : 로컬에서 관리되는 버전 관리 Tool
+    - github : 클라우드 환경에서 관리되는 버전 관리 tool
+
+
+2. git 기초
+    - 워킹 디렉토리 : 작업공간
+    - 리포지터리 
+        - 모든 파일과 폴더의 변경사항을 추적
+        - 추적은 commit 과 branch 를 기점으로 함
+        - branch : 커밋이 저장된 곳
+
+    - 깃 명령어 정리 
+        git init 
+           리포지토리 생성 및 master branch 생성
+
+        git status 
+            현재 리포지토리의 상태 확인. (branch, 추적중인 파일)
+        
+        git add {파일명}
+            git으로 추적하고자 하는 파일 / 폴더 등록
+            

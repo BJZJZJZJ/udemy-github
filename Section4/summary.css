@@ -1,0 +1,68 @@
+body {
+  background-color: rgb(226, 226, 226);
+}
+
+header {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Fuzzy Bubbles";
+  color: rgb(171, 52, 175);
+
+  padding: 32px;
+}
+
+header img {
+  width: 300px;
+}
+
+main {
+  width: 700px;
+  margin: auto;
+  background-color: rgb(103, 43, 143);
+  padding: 25px;
+  color: white;
+
+  border: 2px solid rgb(59, 25, 99);
+  border-radius: 5px;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 14px auto;
+  padding-left: 10px;
+}
+
+main a {
+  background-color: white;
+  color: black;
+  padding: 0px 3px;
+  border-radius: 2px;
+  font-size: 16px;
+
+  text-decoration: none;
+}
+
+footer {
+  margin: 20px auto;
+  text-align: center;
+}
+
+footer a {
+  display: inline-block;
+  background-color: yellow;
+
+  padding: 20px;
+  border-radius: 10px;
+
+  text-decoration: none;
+}

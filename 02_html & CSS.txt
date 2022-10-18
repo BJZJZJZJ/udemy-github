@@ -1,0 +1,56 @@
+** MDN Web Docs : 웹 관련 표준?? 정리된 사이트
+
+2. HTML
+ - Hyper Text Markup Language
+ - 게시하고자 하는 콘텐츠, 구조 및 의미를 정의해 브라우저에게 전달
+
+ - HTML Element
+    · <> 태그안에 묶인 하나의 단위
+    · 어떤 종류의 컨텐츠인지 알려주는 역할
+    · HTML Tag + Element Content 로 구성됨
+
+ - HTML Tag
+    · < > 꺾쇠 괄호 
+    · 꺾쇠 괄호 안에 있는 작성된 태그 이름은 Element Name
+
+ - element Contents 
+    · element 안에 작성된 요소
+
+
+ - HTML 태그가 다양한 이유 
+    1) 일반 사용자 입장 : 유저 편의성 (제목, 부제목, 표 등등)
+    2) 검색 크롤러 : 특정 태그를 참고해 더 좋은 검색 결과를 찾기 위해
+
+ - HTML 속성
+    · < > 태그 안에 적용 시킬 수 있는 추가 정보
+       i.e. <h1 style=""/>  여기서 style 이 속성
+
+
+
+3. CSS : cascading style sheet
+ - css 속성 + 값 
+    (font-family : san-serif)
+
+ - Global CSS
+   1. 선택자
+   2. CSS 규칙
+   3. 속성과 값
+
+
+4. HTML 파일 작성 요령
+   - 엡페이지에 표시되는 컨텐츠는 <body> </body> 태그에 작성
+   - 눈에 보여지지 않는 메타데이터들은 <head> </head> 태그에 작성
+   - 전체적인 HTML 파일은 <html> </html> 태그로 묶음
+   - 최상단에는 <!DOCTYPE html> .. HTML 버전을 기록
+      * 브라우저가 버전 파악을 위해 필요한 요소
+
+
+
+5. Px 단위
+   - 기기 해상도에 따라 픽셀 수가 다르기때문에 좆될 수도 있지만,
+      기기별 픽셀을 따로 적용하면 아주 괜찮게 나옴
+         => 해당 기능은 브라우저가 알아서 수행 해줌 
+   - 치수를 설정하는 절대 단위로 사용됨
+   - font-size는 px 사용 권장
+
+6. rem, % : 상대단위
