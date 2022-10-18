@@ -19,4 +19,11 @@
         
         git add {파일명}
             git으로 추적하고자 하는 파일 / 폴더 등록
+            [staging 영역으로 등록]
+        
+        git commit -m {커밋 메시지}
+            * 만일 유저명 / 이메일을 초기화 하지 않았다면  
+                git config --global --edit 를 이용해 등록
             
+        git log
+            master branch 에 있는 커밋들의 개요를 확인 할 수 있음
