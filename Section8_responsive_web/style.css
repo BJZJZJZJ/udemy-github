@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  background-color: rgb(95, 95, 95);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px 60px;
+  background-color: rgb(36, 36, 36);
+}
+
+#page-logo {
+  text-decoration: none;
+  color: rgb(207, 197, 52);
+
+  font-size: 30px;
+  font-weight: 700;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  padding: 15px;
+  font-size: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(207, 197, 52);
+}
+
+main {
+  text-align: center;
+}
+
+section h1 {
+  font-size: 50px;
+  margin: 0;
+  padding: 30px 0;
+  color: rgb(248, 188, 23);
+}
+
+section ul {
+  list-style: none;
+
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+section ul li {
+  width: 400px;
+
+  margin: 0 20px;
+  padding-bottom: 30px;
+  background-color: bisque;
+
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+section ul li img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+section ul li p {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 15px 0 25px 0;
+}
+
+section ul li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(231, 184, 28);
+  padding: 10px 25px;
+  border-radius: 6px;
+}
+
+section ul li a:hover {
+  color: white;
+  background-color: rgb(255, 196, 0);
+}
