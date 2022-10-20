@@ -47,7 +47,6 @@
         - cover
 
 
-
   - position
      문서 흐름에 의해 정의된 위치를 깨고 싶을때 사용하는 속성
      top, bottom, left, right 속성을 추가로 이용해서 조정
@@ -64,6 +63,7 @@
         스크롤 이후 fixed 로 따라 다님
 
 
+
   - box-sizing
       width,height와 같은 크기를 % 단위로 적용할 때,
       부모의 어느 부분을 기준으로 할 것인지 정하는 속성 
@@ -72,8 +72,10 @@
     - border-box
 
 
-  - object-fit 속성
-    
+
+
+  **** img에 사용 
+  - object-fit 속성    
      - fill (default) : 이미지 크기를 부모의 크기에 맞춰서 조절
       * 비율이 찌그러져 보기 안 좋은 상황이 나올 수 있음
 
@@ -82,3 +84,10 @@
 
      - cover : 종횡비가 유지되면서 컨테이너의 크기에 맞게 조절
       * 이미지 자체가 조금씩 잘릴 수 있음
+
+
+
+  - css의 funtion
+      1) 선형 그라데이션 (linear gradient)
+        - 방향과 색상 선정이 필요
+        - background : linear-gradient(degree, color1 , color2)
