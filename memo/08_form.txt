@@ -1,0 +1,76 @@
+1. 주요 HTML element
+    1) <input type="...">
+      - 타입에는 사용자로부터 받는 input이 무엇인지 명시
+        (Plain text, email, number...  etc)
+
+    2) <textarea>
+      - Multiline text input field
+
+    3) <select>
+      - 드롭다운에서 선택을 위한 element
+    
+    4) <button>
+      - Input으로부터 확정, 초기화 할때 사용
+
+
+
+***** Form element 들은 기본 속성이 inline-block *******
+
+2. <input>
+    * 종료태그를 필요로 하지 않음
+    * 필요로 하는 속성 
+        - type : 브라우저에게 어떤 input 인지 알려주기 위한 역할
+        - id : Label과 연결
+        - name : get / post 되었을 때, key 값
+        - value : Submit 했을 때 Default 값을 정해주기 위해 사용.
+            radio, checkbox (2개 이상의 선택지) 는 값을 정해주기 위해 꼭 써주어야 함 
+
+    1) type attribute
+      - text : 일반적인 텍스트
+      - number
+          + step attribute : 숫자 변화 폭을 조절 가능
+      - email
+      - password
+      - date
+
+      - radio
+          + VALUE 속성, 
+      - checkbox
+      - file
+      - 기타 등등 MDN 에서 확인!
+
+    2) required 속성
+      - 반드시 입력되어야 한다고 명시하는 속선
+
+    3) minlength 
+      - 최소 길이 설정 (비밀번호 같은 경우)
+    
+    4) placeholder
+      - 미리보기 
+
+
+3. <button></button>
+
+4. <form></form>
+    - button을 눌렀을 때의 이벤트 처리를 위해 필요한 element
+    - 검색엔진으로부터는 form 의 시작이라고 알리는 역할
+
+    1) 주요 attribute  
+      - action : 요청이 보내져야할 url, path 작성
+      - method : GET or POST
+
+    2) Name Attribute 
+      * <form> 태그 안에 있는 양식들에 적용해야 하는 태그.
+      * post 방식으로 데이터 전송 시, 식별자 역할을 함
+
+    3) novalidate
+      * 브라우저 기본 검증 과정을 없앰 (이메일, 숫자 등등)
+
+5. <label> </label>
+    - input 과 같은 속성이 어떤 것을 지칭하는지 명시하기 위한 태그
+    - for attribute를 이용해 input의 id 와 연결
+    
+6. <button></button>
+    - submit 외의 기능으로 이용하기 위해선 type attribute를 고친다
+        * type="button"
+        * type="reset"  
