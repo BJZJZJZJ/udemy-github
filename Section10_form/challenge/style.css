@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: azure;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form-container {
+  margin: 0 auto;
+  width: 30rem;
+  background-color: rgb(209, 252, 252);
+  padding: 1rem;
+
+  border: 1px solid rgb(224, 224, 224);
+  border-radius: 6px;
+  box-shadow: 3px 3px 3px rgb(233, 232, 232);
+}
+
+section input,
+select {
+  display: block;
+
+  width: 100%;
+  height: 2rem;
+  box-sizing: border-box;
+  margin: 0.5rem 0;
+
+  border-radius: 6px;
+  border: 1px solid rgb(204, 204, 204);
+
+  transition: transform 0.5s ease;
+}
+
+section input:focus {
+  background-color: azure;
+  outline-color: rgb(170, 170, 170);
+  transform: scale(1.05, 1.05);
+}
+
+section textarea {
+  width: 100%;
+  box-sizing: border-box;
+  resize: vertical;
+  margin: 0.5rem 0;
+
+  border-radius: 6px;
+  border: 1px solid rgb(204, 204, 204);
+}
+
+.reply-container {
+  display: flex;
+  align-items: center;
+  height: 1.5rem;
+}
+
+.reply-container input {
+  width: auto;
+  margin-right: 1rem;
+}
+
+.terms {
+  margin-top: 1.5rem;
+}
+
+.button-container {
+  text-align: right;
+}
+
+.button-container button {
+  width: 5rem;
+  height: 2rem;
+}

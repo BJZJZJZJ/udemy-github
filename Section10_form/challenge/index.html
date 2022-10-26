@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./style.css" />
+    <title>Form challenge</title>
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+    </header>
+
+    <main class="form-container">
+      <form>
+        <h2>How can we help you?</h2>
+        <section>
+          <label for="name"> Your Name</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email"> Your E-mail Address</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="phone"> Your Phone Number</label>
+          <input type="number" id="phone" name="phone" required />
+
+          <label for="message"> Your Message</label>
+          <textarea id="message" name="message" rows="7"> </textarea>
+        </section>
+        <section>
+          <label for="find"> How did find us?</label>
+          <select name="find" id="find">
+            <option value="search">검색</option>
+            <option value="etc1">등등</option>
+            <option value="etc2">등등2</option>
+          </select>
+        </section>
+
+        <h2>How should we reply?</h2>
+        <section>
+          <div class="reply-container">
+            <input
+              type="radio"
+              name="reply"
+              id="reply-call"
+              value="call"
+              required
+            />
+            <label for="reply-call">Call me</label>
+          </div>
+          <div class="reply-container">
+            <input
+              type="radio"
+              name="reply"
+              id="reply-email"
+              value="email"
+              required
+            />
+            <label for="reply-email">Send me an Email</label>
+          </div>
+          <div class="reply-container">
+            <input
+              type="radio"
+              name="reply"
+              id="reply-no"
+              value="no"
+              required
+            />
+            <label for="reply-no">Don't reply</label>
+          </div>
+          <div class="reply-container terms">
+            <input type="checkbox" name="terms" id="terms" />
+            <label for=""> Accept Terms</label>
+          </div>
+        </section>
+
+        <section>
+          <div class="button-container">
+            <button type="reset">clear</button>
+            <button type="submit">Submit</button>
+          </div>
+        </section>
+      </form>
+    </main>
+  </body>
+</html>
