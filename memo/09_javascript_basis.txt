@@ -1,0 +1,40 @@
+1. 자바스크립트는 무엇인가
+  - 브라우저에 의해 실행될 수 있는 프로그래밍 언어
+  - HTML : 내용과 그 구조를 정의하고, 의미론을 추가하
+    CSS : element와 페이지 컨텐츠의 스타일 정의
+
+    JS : 사용자가 보는 페이지와 쌍방향 소통 기능을 추가
+        -> 로딩된 페이지를 실제적으로 바꿀 수 있음 
+
+
+
+2. 커리큘럼
+    - variable & values
+    - array & objects
+    - functions
+    - DOM 
+    - control structures 
+
+
+3. 변수
+    - Spring
+    - numbers
+    - 그 외에도 많음
+
+
+4. array 
+    - [] 을 사용해 선언
+    - 인덱스를 이용해 사용
+
+5. Object 타입
+    - {} 를 사용해 선언
+    - key-value 쌍으로 정의 
+    - object의 property로 함수를 선언할 수 있음.
+        이 경우, method로 쓰임
+
+
+6. 함수
+    - 선언
+    function identifier (parameter ){
+        code
+    }
