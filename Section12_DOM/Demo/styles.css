@@ -40,3 +40,11 @@ button {
   border-color: transparent;
   cursor: pointer;
 }
+
+span.warning {
+  color: brown;
+}
+
+input.warning {
+  background-color: brown;
+}

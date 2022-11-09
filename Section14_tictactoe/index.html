@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/overlays.css" />
+    <link rel="stylesheet" href="./styles/configuration.css" />
+    <link rel="stylesheet" href="./styles/game.css" />
+
+    <script src="./scripts/config.js" defer></script>
+    <script src="./scripts/game.js" defer></script>
+    <script src="./scripts/app.js" defer></script>
+
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <div id="backdrop"></div>
+    <header id="main-header">
+      <h1>Tic, Tac, Toe 함 뜨자</h1>
+      <p>HTML , CSS , JS 를 이용해 만들어졌슴니다</p>
+    </header>
+
+    <main>
+      <aside class="modal" id="config-overlay">
+        <h2>이름을 적어주세요</h2>
+        <form>
+          <div class="form-control">
+            <label for="username">이름 </label>
+            <input type="text" name="username" id="username" required />
+          </div>
+          <p id="config-error"></p>
+          <div>
+            <button type="reset" class="btn btn-alt" id="config-cancel-btn">
+              Cancel
+            </button>
+            <button type="submit" class="btn">Confirm</button>
+          </div>
+        </form>
+      </aside>
+      <section id="game-configuration">
+        <ol>
+          <li>
+            <article id="p-1-data">
+              <h2>Player 1</h2>
+              <h3>PLAYER NAME</h3>
+              <p class="player-symbol">X</p>
+              <button class="btn btn-alt" id="edit-player1-btn" data-pid="1">
+                Edit
+              </button>
+            </article>
+          </li>
+          <li>
+            <article id="p-2-data">
+              <h2>Player 2</h2>
+              <h3>PLAYER NAME</h3>
+              <p class="player-symbol">O</p>
+              <button class="btn btn-alt" id="edit-player2-btn" data-pid="2">
+                Edit
+              </button>
+            </article>
+          </li>
+        </ol>
+
+        <button class="btn" id="start-game-btn">Start New Game!</button>
+      </section>
+
+      <section id="active-game">
+        <article id="game-over">
+          <h3>You won, <span id="winner-name"> Player NAME</span>!</h3>
+          <p>새 게임을 원하시면 New Game을 눌러주세요!</p>
+        </article>
+
+        <p>
+          당신의 차례입니다.
+          <span id="active-player-name"> PLAYTER NAME </span>
+        </p>
+        <ol id="game-board">
+          <li data-row="1" data-col="1"></li>
+          <li data-row="1" data-col="2"></li>
+          <li data-row="1" data-col="3"></li>
+          <li data-row="2" data-col="1"></li>
+          <li data-row="2" data-col="2"></li>
+          <li data-row="2" data-col="3"></li>
+          <li data-row="3" data-col="1"></li>
+          <li data-row="3" data-col="2"></li>
+          <li data-row="3" data-col="3"></li>
+        </ol>
+      </section>
+    </main>
+  </body>
+</html>
