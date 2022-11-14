@@ -4,11 +4,16 @@
   "description": "NodeJS & Express Example",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./section17_nodeJS/app.js"
   },
   "author": "BJJ",
   "license": "MIT",
   "dependencies": {
+    "ejs": "^3.1.8",
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }

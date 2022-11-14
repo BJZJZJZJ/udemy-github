@@ -7,4 +7,5 @@
 
 
 1. 미들웨어 Express
-    - 설치 : npm install express
+    - 설치 : npm install express  // 설치하기 전, npm init 으로 초기화
+    
